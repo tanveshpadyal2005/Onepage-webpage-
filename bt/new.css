@@ -1,0 +1,417 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: bisque;
+}
+
+* {
+    /* outline: 1px solid green; */
+}
+
+.carousel-item img {
+    height: 80vh !important;
+    object-fit: cover;
+}
+
+.abt-img{
+    background-color: #fff;
+    height: 20rem !important;
+    width: 30rem;
+    background-image: url(./comfortable-armchair-room-decorated.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.newrow{
+    padding: 1rem;
+    overflow: hidden;
+}
+
+
+.abt-para h2 {
+    font-size: 23px;
+    color: rgb(0, 238, 255);
+    margin-top: 10px;
+}
+
+.abt-para p {
+    font-size: 16px;
+    /* width: 35rem; */
+    font-weight: 600;
+    color: gray;
+    margin-top: 10px;
+}
+
+.abt-para button {
+    width: 10rem;
+    height: 2.7rem;
+    border: none;
+    background-color: rgb(95, 0, 184);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.abt-img {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    width: 40rem !important;
+    height: auto;
+    object-fit: cover;
+}
+
+.abt-para h3 {
+    letter-spacing: 1px;
+}
+
+.card {
+    width: 22rem !important;
+    height: 28rem !important;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 15px;
+    box-sizing: content-box !important;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.372);
+}
+
+.card img {
+    width: 22rem !important;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    padding: 2rem 6rem !important;
+}
+
+.navbar {
+    height: 12vh !important;
+    background-color: rgb(31, 31, 31) !important;
+    color: #fff;
+    padding: 0 4rem !important;
+}
+
+.navbar-nav li {
+    margin-left: 10px !important;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    padding: 10px 20px !important;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+/* modified carousal  */
+
+.carousel-inner {
+    width: 80% !important;
+}
+
+.carousel-inner div:nth-child(1) {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(31, 82, 65);
+    background-image: url(https://images.unsplash.com/photo-1615412704911-55d589229864?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1282&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.carousel-inner div:nth-child(2) {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(140, 255, 217);
+    background-image: url(https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-inner div:nth-child(3) {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(61, 224, 169);
+    background-image: url(https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 92, 92);
+    background-image: url(https://www.splitshire.com/wp-content/uploads/2014/11/SplitShire-03692-1800x1200.jpg);
+}
+
+/* carousal css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.all {
+    height: 100vh;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-carousel {
+    margin: 0 5rem;
+
+    width: 80% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px !important;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    /* gap: 100px !important; */
+}
+
+/* .owl-stage-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.card1 {
+    /* height: 25rem; */
+    width: 85%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, .5);
+    /* margin-left: 10rem !important; */
+}
+
+.card1 .img {
+    width: 100%;
+    height: 13rem;
+
+}
+
+.card1 .img img {
+    width: 90%;
+    height: 13rem;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    object-position: top;
+}
+
+.content {
+    text-align: center;
+    padding: 17px 10px;
+}
+
+.content h4 {
+    color: blueviolet;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+.content h5 {
+    font-size: 16px;
+    line-height: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.content p {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+
+}
+
+.owl-nav {
+    margin: 0;
+}
+
+.owl-stage {
+    position: relative;
+}
+
+.owl-prev {
+    background-color: rgb(25, 25, 25) !important;
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.owl-prev:active,
+.owl-next:active {
+    background-color: rgb(124, 124, 124) !important;
+}
+
+.owl-next {
+    background-color: rgb(31, 31, 31) !important;
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    right: -10px;
+    top: 40%;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.content .btn {
+    margin-top: 15px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    background-color: blueviolet;
+    width: 10rem;
+    height: 2.6rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 5px 10px;
+
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .8rem !important;
+}
+
+.section1 {
+    /* min-height: 80vh; */
+
+    padding: 1rem 0;
+    box-sizing: content-box;
+    background-image: linear-gradient(rgb(146, 201, 255), rgb(55, 171, 255), rgb(55, 148, 255), rgb(0, 112, 249));
+}
+
+@media (max-width:1120px) {
+    .btn {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 20px;
+}
+
+.new-brand {}
+
+footer .new-brand p {
+    font-size: 30px;
+    background-color: gold;
+    box-shadow:0 0 10px rgba(255, 255, 0, 0.324);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: black;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .links ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px; 
+    border-bottom: 3px solid gold;
+}
+
+footer form input:nth-child(1){
+    width: 15rem;
+    background-color: transparent;
+    border: 1.5px solid gray;
+    border-radius: 5px 0 0 5px;
+    height: 2.7rem;
+
+}
+
+footer form input:nth-child(2){
+    width: 6rem;
+    background-color :rgb(148, 210, 255);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+    height: 2.7rem;
+
+}
